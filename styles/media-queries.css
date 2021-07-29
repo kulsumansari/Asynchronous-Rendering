@@ -10,7 +10,7 @@
   }
  
   .banner {
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     align-items: center;
   }
@@ -20,7 +20,7 @@
   }
 
   .section{
-    height:120vh;
+    height:100vh;
   }
   .sub-section{
     display: flex;
@@ -29,3 +29,31 @@
     justify-content: center;
   }
 } 
+
+@media (max-width: 592px) {
+  .section{
+    height:100vh;
+    padding: 0px;
+  }
+  .section h2{
+    padding-top: 4vh;
+  }
+}
+
+@media (max-width: 487px) {
+  .section{
+    height:115vh;
+    padding: 0px;
+  }
+  
+}
+@media (max-width: 380px) {
+  .section{
+    height:130vh;
+    padding: 0px;
+  }
+  .sub-section{
+    width: 100%;
+  }
+  
+}
